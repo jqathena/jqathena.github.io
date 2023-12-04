@@ -1,0 +1,26 @@
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.nav li a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 0.5em 2em;
+  text-decoration: none;
+  font-family: "ESL Legend", sans-serif;
+  font-size: 1.4em;
+}
+
+.nav li a:hover {
+  color: #f00;
+}
+
+.nav .active {
+  color: #f00;
+}/*# sourceMappingURL=nav.css.map */

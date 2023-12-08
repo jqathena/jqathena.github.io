@@ -23,4 +23,10 @@
 
 .nav .active {
   color: #f00;
+}
+
+@media only screen and (max-width: 979px) {
+  .nav li a {
+    padding: 0.3em 1em !important;
+  }
 }/*# sourceMappingURL=nav.css.map */

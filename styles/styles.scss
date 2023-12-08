@@ -38,6 +38,7 @@ body {
   // background-color: #610505;
   overflow-x: hidden;
   background-color: #fff;
+  font-family: 'Oxygen', sans-serif;
 }
 
 img {
@@ -45,14 +46,11 @@ img {
 }
 
 .ag-format-container {
-  width: 1160px;
+  align-self: center;
   margin: 0 auto;
   position: relative;
 }
 
-.ag-timeline-block {
-  padding: 10em 0;
-}
 
 .ag-timeline_title-box {
   padding: 0 0 10px;
@@ -61,8 +59,12 @@ img {
 
 .ag-timeline_tagline {
   font-size: 100px;
-  // color: #fff;
   color: #000;
+  font-family: 'ESL Legend', sans-serif;
+  text-align: center;
+}
+
+h2 {
   font-family: 'ESL Legend', sans-serif;
 }
 
@@ -101,7 +103,7 @@ img {
 
 .ag-timeline_line {
   width: 2px;
-  background-color: #610505;//#ffffff;
+  background-color: #f0c45d;
   position: absolute;
   top: 2px;
   left: 50%;
@@ -194,10 +196,10 @@ img {
 }
 
 .ag-timeline-card_item:hover {
-  -webkit-box-shadow: 3px 3px 3px 3px rgba(255, 0, 0, .5);
-  -moz-box-shadow: 3px 3px 3px 3px rgba(255, 0, 0, .5);
-  -o-box-shadow: 3px 3px 3px 3px rgba(255, 0, 0, .5);
-  box-shadow: 3px 3px 3px 3px rgba(255, 0, 0, .5);
+  -webkit-box-shadow: 1px 1px 1px 1px #610505;
+  -moz-box-shadow: 1px 1px 1px 1px #610505; //rgba(255, 0, 0, .5);
+  -o-box-shadow: 1px 1px 1px 1px #610505;//rgba(255, 0, 0, .5);
+  box-shadow: 1px 1px 1px 1px #610505;//rgba(255, 0, 0, .5);
 
   -webkit-transition: -webkit-transform .5s, opacity .5s;
   -moz-transition: -moz-transform .5s, opacity .5s;
@@ -290,6 +292,10 @@ img {
 
 
 @media only screen and (max-width: 979px) {
+  .ag-timeline-block {
+    padding: 0.75em 0;
+  }
+
   .ag-timeline_line {
     left: 2.5em;
   }
@@ -364,21 +370,6 @@ img {
   }
 }
 
-@media only screen and (max-width: 479px) {}
-
-@media (min-width: 768px) and (max-width: 979px) {
-  .ag-format-container {
-    width: 750px;
-  }
-
-}
-
-@media (min-width: 980px) and (max-width: 1161px) {
-  .ag-format-container {
-    width: 960px;
-  }
-
-}
 #scroll {
   display: block;
   color: #610505;
@@ -393,3 +384,13 @@ img {
   color: #f00;
 }
 
+.container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-container {
+  width: 70vw;
+}

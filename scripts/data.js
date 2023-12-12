@@ -1,5 +1,11 @@
 const items = [
   {
+    date: "1980s",
+    title: "Context",
+    subtitle: "Unemployment & anti-Japanese sentiment in the auto industry and Detroit",
+    text: "Detroit was in a crisis and racially charged.The manufacturing sector in America, particularly the Midwest, was hit with economic disaster during the oil crises in the 1970s. The auto industry was hit particularly hard with the onset of popular international cars that were dependable, cheap, and fuel-efficient, especially with the higher gas prices from the oil crisis. Detroit, a city dependent on the auto industry, had an unemployment rate of over 17% as hundreds of thousands of workers were laid off. Soon, the Japanese became the scapegoat. Anything Japanese was a target: people smashed Japanese cars, owners were harassed, and politicians made racial comments towards Japanese people. Detroit had a less than 1% population of Asian Americans, and the invisibility of Asian Americans was prevalent throughout the media. Asian Americans were seen as the “model minority”: hard workers who didn’t interfere with society. Previous generations of Asian American activism in the Yellow Power and Ethnic Studies movements were mostly students, and the term “Asian American” had not caught on yet."
+  },
+  {
     date: "19 June 1982",
     title: "Bar Room Brawl",
     subtitle:

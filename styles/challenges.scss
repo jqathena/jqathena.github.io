@@ -1,0 +1,28 @@
+body {
+    font-family: 'Oxygen', sans-serif;
+}
+
+.c-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.c-text-container {
+    width: 60vw;
+}
+  
+.c-title {
+    font-size: 100px;
+    color: #000;
+    font-family: "ESL Legend", sans-serif;
+    text-align: center;
+}
+  
+p {
+    padding: 0;
+    margin: 10px 0;
+    font-size: 1em;
+}

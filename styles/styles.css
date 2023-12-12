@@ -21,7 +21,7 @@
 }
 body {
   overflow-x: hidden;
-  background-color: #fff;
+  background-color: hsl(0, 0%, 100%);
   font-family: "Oxygen", sans-serif;
 }
 
@@ -297,7 +297,14 @@ h2 {
   width: 100vw;
   display: flex;
   justify-content: center;
-  align-items: center;
+  background-image: url("../assets/bwjfvc.jpg");
+  background-size: cover;
+}
+
+.info-container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
 }
 
 .text-container {

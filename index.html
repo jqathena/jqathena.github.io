@@ -9,24 +9,34 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap" rel="stylesheet">
-
+  <script src="scripts/sticky.js"></script>
 </head>
 
 <body>
-  <div class="nav">
+  <div class="container">
+    <div style="height: 90vh"></div>
+  </div>
+
+  <div class="nav" id="nav">
     <ul>
-      <li><a class="active" href="index.html">Vincent Chin</a></li>
+      <li><a href="index.html" class="active">Vincent Chin</a></li>
       <li><a href="timeline.html">Timeline</a></li>
-      <li><a href="strategies.html">Strategies</a></li>
+      <li class="dropdown">
+        <a href="strategies.html">
+          Strategies <span style="margin-left: 5px;">&#9662;</span>
+        </a>
+        <div class="dropdown-content">
+          <a href="coalitionbuilding.html">Coalition Building</a>
+          <a href="solidarity.html">Solidarity</a>
+          <a href="media.html">Media</a>
+          <a href="legal.html">Legal Approach</a>
+        </div>
+      </li>
       <li><a href="challenges.html">Challenges</a></li>
     </ul>
   </div>
-  <div class="container">
-    <div style="height: 90vh">
-      <!-- <h1 class="ag-timeline_tagline" style="color: #f00">Vincent Chin</h1> -->
-    </div>
-  </div>
-  <div class="info-container">
+
+  <div class="info-container content">
     <div class="text-container" style="padding-top: 30px; margin: 20px">
       <div class="flex">
         <div class="small-img right">
@@ -43,9 +53,10 @@
             sentenced
             to 25 years in jail. However, Ebens appealed for retrial and won, so he never spent a full day in jail.
           </p>
-          <br/>
+          <br />
           <p>Chin was 27 years old. He worked as a draftsman and a waiter and was attending night school to learn
-            computer operations. He was well-liked by his colleagues and supervisors, with a friendly nature and strong
+            computer operations. He was well-liked by his colleagues and supervisors, with a friendly nature and
+            strong
             work ethic. His parents were both working class immigrants from China who worked in the laundry and
             restaurant industries in Detroit. He was adopted when he was 6 years old. His story, and the story of Lily
             Chin, resonated with many other Asian Americans as they realized his brutality could have happened to any
@@ -57,24 +68,31 @@
           <p class="caption">Photo of Vincent Chin</p>
         </div>
       </div>
-      <br/><br/>
+      <br /><br />
       <h2>Legacy:</h2>
       <div class="flex">
         <div class="right" style="width: 300px">
           <img src="assets/stopasianhate.jpeg" alt="Two older women carrying a sign that says 'Stop Asian Hate'" />
-          <p class="caption">A Stop Asian Hate rally at San Jose, California, in March 2021. The fight against systemic inequality and racism that Chin's case was a part of continues today.</p>
+          <p class="caption">A Stop Asian Hate rally at San Jose, California, in March 2021. The fight against
+            systemic inequality and racism that Chin's case was a part of continues today.</p>
         </div>
-      <p class="small-img">Vincent Chin’s murder united Asian Americans in a way that never happened before. It created the first national
-        pan-Asian coalitions for Asian American advocacy and included immigrants, elders, and everyone in between. It
-        articulated Asian American systemic racism and helped kick off the Asian American movement, including a push for
-        more national monitoring and reporting of racially motivated actions against Asian Americans. New Asian American
-        advocacy groups began forming throughout the nation, speaking out and defying the model minority myth. Chin’s
-        story also became a part of the victims’ rights movement to allow crime victims to make statements on the harm
-        experienced as no witnesses were present at the first trial, and the protections against hate crimes were
-        strengthened as the scope of civil rights in America was broadened.
-      </p>
-      
-    </div>
+        <p class="small-img">Vincent Chin’s murder united Asian Americans in a way that never happened before. It
+          created the first national
+          pan-Asian coalitions for Asian American advocacy and included immigrants, elders, and everyone in between.
+          It
+          articulated Asian American systemic racism and helped kick off the Asian American movement, including a push
+          for
+          more national monitoring and reporting of racially motivated actions against Asian Americans. New Asian
+          American
+          advocacy groups began forming throughout the nation, speaking out and defying the model minority myth.
+          Chin’s
+          story also became a part of the victims’ rights movement to allow crime victims to make statements on the
+          harm
+          experienced as no witnesses were present at the first trial, and the protections against hate crimes were
+          strengthened as the scope of civil rights in America was broadened.
+        </p>
+
+      </div>
     </div>
   </div>
 </body>

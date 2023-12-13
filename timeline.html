@@ -10,15 +10,26 @@
   <script src="scripts/render.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" type="text/css" href="styles/strategies.css" />
   <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <div class="nav" id="nav">
     <ul>
-      <li><a href="index.html">Vincent Chin</a></li>
-      <li><a class="active" href="timeline.html">Timeline</a></li>
-      <li><a href="strategies.html">Strategies</a></li>
+      <li ><a href="index.html">Vincent Chin</a></li>
+      <li ><a href="timeline.html" class="active">Timeline</a></li>
+      <li class="dropdown">
+        <a href="strategies.html">
+          Strategies <span style="margin-left: 5px;">&#9662;</span>
+        </a>
+        <div class="dropdown-content">
+          <a href="coalitionbuilding.html">Coalition Building</a>
+          <a href="solidarity.html">Solidarity</a>
+          <a href="media.html">Media</a>
+          <a href="legal.html">Legal Approach</a>
+        </div>
+      </li>
       <li><a href="challenges.html">Challenges</a></li>
     </ul>
   </div>

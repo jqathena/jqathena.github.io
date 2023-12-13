@@ -6,7 +6,6 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 90vh;
 }
 
 .title {
@@ -20,7 +19,6 @@ body {
 }
 
 .s-container {
-  width: 100vw;
   display: flex;
   justify-content: center;
 }
@@ -34,18 +32,35 @@ body {
   font-size: 1.5em;
   padding-bottom: 10px;
   margin-bottom: 15px;
+  width: 60vw;
+  align-self: center;
+  flex-wrap: wrap;
 }
 
 .category a {
-  margin: 0 1em;
+  width: 40%;
+  margin: 10px;
   text-decoration: none;
+  aspect-ratio: 1;
+  border: 1px solid black;
+  color: #610505;
+  font-size: 2em;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.category p {
+  background-color: #fff;
+  bottom: 0px;
 }
 
 .category a:hover {
   color: #f00;
 }
 
-h2, .category a {
+h2 {
   font-size: 2em;
   color: #610505;
   padding: 0;
@@ -60,9 +75,14 @@ h2, .category a {
 }
 
 .s-info-container {
-  width: 70vw;
-  display: block;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
   padding: none;
+}
+
+.info-text {
+  margin-bottom: 2em;
 }
 
 h4 {
@@ -78,7 +98,7 @@ p {
 .subtitle-text {
   text-align: left;
   padding: 0 5em;
-  width: 65%;
+  width: 50%;
   align-self: center;
 }
 
@@ -130,6 +150,10 @@ p {
   width: calc(100% - 350px);
 }
 
+.smaller-img {
+  width: calc(100% - 340px);
+}
+
 .section {
   padding-top: 30px;
   margin-top: 20px;
@@ -141,6 +165,42 @@ ul li {
 
 ol li {
   padding: 8px;
+}
+
+.media {
+  background-image: url("../assets/jfvcposter.jpeg");
+  background-size: cover;
+}
+
+.media:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/jfvcposter.jpeg");
+}
+
+.coalition {
+  background-image: url("../assets/vcremembrance.jpeg");
+  background-size: cover;
+}
+
+.coalition:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/vcremembrance.jpeg");
+}
+
+.legal {
+  background-image: url("../assets/protestors.jpeg");
+  background-size: cover;
+}
+
+.legal:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/protestors.jpeg");
+}
+
+.solidarity {
+  background-image: url("../assets/revjjackson.jpeg");
+  background-size: cover;
+}
+
+.solidarity:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/revjjackson.jpeg");
 }
 
 @media only screen and (max-width: 979px) {
@@ -158,5 +218,8 @@ ol li {
   }
   .small-img {
     width: auto;
+  }
+  .s-info-container {
+    width: 80vw;
   }
 }/*# sourceMappingURL=strategies.css.map */

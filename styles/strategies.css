@@ -147,10 +147,6 @@ p {
 }
 
 .small-img {
-  width: calc(100% - 350px);
-}
-
-.smaller-img {
   width: calc(100% - 340px);
 }
 
@@ -221,5 +217,11 @@ ol li {
   }
   .s-info-container {
     width: 80vw;
+  }
+  .category a {
+    width: 100%;
+  }
+  .subtitle-text {
+    width: 75%;
   }
 }/*# sourceMappingURL=strategies.css.map */

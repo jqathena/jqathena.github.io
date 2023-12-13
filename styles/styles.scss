@@ -1,35 +1,50 @@
 @font-face {
-  font-family: 'ESL Legend';
+  font-family: "ESL Legend";
   src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.eot);
-  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.eot#iefix) format("embedded-opentype"),
-    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.woff2) format("woff2"),
-    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.woff) format("woff"),
-    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.ttf) format("truetype"),
-    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.svg#eicon) format("svg");
+  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.eot#iefix)
+      format("embedded-opentype"),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.woff2)
+      format("woff2"),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.woff)
+      format("woff"),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.ttf)
+      format("truetype"),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.svg#eicon)
+      format("svg");
   font-style: normal;
   font-weight: 300;
 }
 
 @font-face {
-  font-family: 'ESL Legend';
+  font-family: "ESL Legend";
   src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.eot);
-  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.eot#iefix) format("embedded-opentype"),
-    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.woff2) format("woff2"),
-    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.woff) format("woff"),
-    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.ttf) format("truetype"),
-    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.svg#eicon) format("svg");
+  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.eot#iefix)
+      format("embedded-opentype"),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.woff2)
+      format("woff2"),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.woff)
+      format("woff"),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.ttf)
+      format("truetype"),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.svg#eicon)
+      format("svg");
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
-  font-family: 'ESL Legend';
+  font-family: "ESL Legend";
   src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.eot);
-  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.eot#iefix) format("embedded-opentype"),
-    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.woff2) format("woff2"),
-    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.woff) format("woff"),
-    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.ttf) format("truetype"),
-    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.svg#eicon) format("svg");
+  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.eot#iefix)
+      format("embedded-opentype"),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.woff2)
+      format("woff2"),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.woff)
+      format("woff"),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.ttf)
+      format("truetype"),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.svg#eicon)
+      format("svg");
   font-style: normal;
   font-weight: bold;
 }
@@ -38,7 +53,7 @@ body {
   // background-color: #610505;
   overflow-x: hidden;
   background-color: hsl(0, 0%, 100%);
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
 }
 
 img {
@@ -51,7 +66,6 @@ img {
   position: relative;
 }
 
-
 .ag-timeline_title-box {
   padding: 0 0 10px;
   text-align: center;
@@ -60,12 +74,12 @@ img {
 .ag-timeline_tagline {
   font-size: 100px;
   color: #000;
-  font-family: 'ESL Legend', sans-serif;
+  font-family: "ESL Legend", sans-serif;
   text-align: center;
 }
 
 h2 {
-  font-family: 'ESL Legend', sans-serif;
+  font-family: "ESL Legend", sans-serif;
 }
 
 .ag-timeline_title {
@@ -121,7 +135,7 @@ h2 {
 .ag-timeline_line-progress {
   width: 100%;
   height: 20%;
-  background-color: #f00
+  background-color: #f00;
 }
 
 .ag-timeline-card_box {
@@ -138,7 +152,7 @@ h2 {
 }
 
 .ag-timeline_item:nth-child(2n) .ag-timeline-card_point-box {
-  margin: 0 -28px 0 14px
+  margin: 0 -28px 0 14px;
 }
 
 .ag-timeline-card_point {
@@ -149,13 +163,13 @@ h2 {
   background-color: #ffffff;
 
   text-align: center;
-  font-family: 'ESL Legend', sans-serif;
+  font-family: "ESL Legend", sans-serif;
   font-size: 20px;
   color: #f00;
 
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
-  border-radius: 50%
+  border-radius: 50%;
 }
 
 .js-ag-active .ag-timeline-card_point {
@@ -170,7 +184,7 @@ h2 {
 
 .ag-timeline-card_meta {
   margin: 10px 0 0;
-  font-family: 'ESL Legend', sans-serif;
+  font-family: "ESL Legend", sans-serif;
   font-weight: bold;
   font-size: 28px;
   color: #f00;
@@ -187,10 +201,10 @@ h2 {
   -moz-border-radius: 6px;
   border-radius: 6px;
 
-  -webkit-transition: -webkit-transform .5s, opacity .5s;
-  -moz-transition: -moz-transform .5s, opacity .5s;
-  -o-transition: -o-transform .5s, opacity .5s;
-  transition: transform .5s, opacity .5s;
+  -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+  -moz-transition: -moz-transform 0.5s, opacity 0.5s;
+  -o-transition: -o-transform 0.5s, opacity 0.5s;
+  transition: transform 0.5s, opacity 0.5s;
 
   position: relative;
 }
@@ -198,17 +212,16 @@ h2 {
 .ag-timeline-card_item:hover {
   -webkit-box-shadow: 1px 1px 1px 1px #610505;
   -moz-box-shadow: 1px 1px 1px 1px #610505; //rgba(255, 0, 0, .5);
-  -o-box-shadow: 1px 1px 1px 1px #610505;//rgba(255, 0, 0, .5);
-  box-shadow: 1px 1px 1px 1px #610505;//rgba(255, 0, 0, .5);
+  -o-box-shadow: 1px 1px 1px 1px #610505; //rgba(255, 0, 0, .5);
+  box-shadow: 1px 1px 1px 1px #610505; //rgba(255, 0, 0, .5);
 
-  -webkit-transition: -webkit-transform .5s, opacity .5s;
-  -moz-transition: -moz-transform .5s, opacity .5s;
-  -o-transition: -o-transform .5s, opacity .5s;
-  transition: transform .5s, opacity .5s;
-
+  -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+  -moz-transition: -moz-transform 0.5s, opacity 0.5s;
+  -o-transition: -o-transform 0.5s, opacity 0.5s;
+  transition: transform 0.5s, opacity 0.5s;
 }
 
-.ag-timeline_item:nth-child(2n+1) .ag-timeline-card_item {
+.ag-timeline_item:nth-child(2n + 1) .ag-timeline-card_item {
   -webkit-transform: translateX(-200%);
   -moz-transform: translateX(-200%);
   -ms-transform: translateX(-200%);
@@ -224,7 +237,7 @@ h2 {
   transform: translateX(200%);
 }
 
-.js-ag-active.ag-timeline_item:nth-child(2n+1) .ag-timeline-card_item,
+.js-ag-active.ag-timeline_item:nth-child(2n + 1) .ag-timeline-card_item,
 .js-ag-active.ag-timeline_item:nth-child(2n) .ag-timeline-card_item {
   opacity: 1;
 
@@ -254,7 +267,7 @@ h2 {
   transform: rotate(45deg);
 }
 
-.ag-timeline_item:nth-child(2n+1) .ag-timeline-card_arrow {
+.ag-timeline_item:nth-child(2n + 1) .ag-timeline-card_arrow {
   margin-left: calc(-18px / 2);
   margin-right: calc(-18px / 2);
 }
@@ -277,7 +290,7 @@ h2 {
 .ag-timeline-card_title {
   margin: 10px 0 0;
 
-  font-family: 'ESL Legend', sans-serif;
+  font-family: "ESL Legend", sans-serif;
   font-weight: bold;
   font-size: 28px;
   color: #610505;
@@ -289,7 +302,6 @@ h2 {
   font-size: 16px;
   color: #000000;
 }
-
 
 @media only screen and (max-width: 979px) {
   .ag-timeline-block {
@@ -330,7 +342,7 @@ h2 {
     margin: 0.5em 0 0 2.75em;
   }
 
-  .ag-timeline_item:nth-child(2n+1) .ag-timeline-card_item,
+  .ag-timeline_item:nth-child(2n + 1) .ag-timeline-card_item,
   .ag-timeline_item:nth-child(2n) .ag-timeline-card_item {
     -webkit-transform: translateX(200%);
     -moz-transform: translateX(200%);
@@ -339,9 +351,12 @@ h2 {
     transform: translateX(200%);
   }
 
-
   .ag-timeline-card_title {
     display: block;
+  }
+
+  .pdf-reader {
+    width: 100%;
   }
 }
 
@@ -380,27 +395,33 @@ h2 {
   font-size: 1.4em;
 }
 
-#scroll:hover  {
+#scroll:hover {
   color: #f00;
 }
 
 .container {
   padding: 0;
-  margin:0;
+  margin: 0;
   width: 100%;
   display: flex;
   justify-content: center;
   background-image: url("../assets/bwjfvc.jpg");
-  background-size:cover;
+  background-size: cover;
 }
 
 .info-container {
   width: 100vw;
   display: flex;
   justify-content: center;
-
 }
 
 .text-container {
   width: 70vw;
+}
+
+.pdf-reader {
+  align-self: center;
+  width: 60%;
+  text-align: center;
+  height: 100%;
 }

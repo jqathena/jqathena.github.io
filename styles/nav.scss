@@ -1,5 +1,4 @@
 .nav {
-  overflow: hidden;
   background-color: #fff;
 }
 
@@ -10,6 +9,7 @@
     overflow: hidden;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
   }
 
   .strategy ul {

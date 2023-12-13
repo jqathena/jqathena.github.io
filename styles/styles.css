@@ -258,6 +258,9 @@ h2 {
   .ag-timeline-card_title {
     display: block;
   }
+  .pdf-reader {
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 767px) {
   .ag-format-container {
@@ -311,4 +314,11 @@ h2 {
 
 .text-container {
   width: 70vw;
+}
+
+.pdf-reader {
+  align-self: center;
+  width: 60%;
+  text-align: center;
+  height: 100%;
 }/*# sourceMappingURL=styles.css.map */
